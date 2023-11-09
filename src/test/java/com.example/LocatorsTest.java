@@ -27,9 +27,9 @@ public class LocatorsTest {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
-        Map<String, Object> prefs = new HashMap<String, Object>();
-        Map<String, Object> profile = new HashMap<String, Object>();
-        Map<String, Object> contentSettings = new HashMap<String, Object>();
+        Map<String, Object> prefs = new HashMap<>();
+        Map<String, Object> profile = new HashMap<>();
+        Map<String, Object> contentSettings = new HashMap<>();
 
         //contentSettings.put("cookies",2);
         profile.put("managed_default_content_settings",contentSettings);
